@@ -26,6 +26,7 @@ import CropMarketTrendAnalyzerPage from "./pages/CropMarketTrendAnalyzer/CropMar
 import Loader from "./components/common/Loader.jsx"
 import Model from "./pages/Model/Model.jsx"
 import Model2 from "./pages/Model/Model2.jsx"
+import Model3 from "./pages/Model/Model3.jsx"
 const queryClient = new QueryClient();
 
 const SplashScreen = ({ onComplete }) => {
@@ -67,6 +68,7 @@ const router = createBrowserRouter([
             { path: "info", element: <Info /> },
 			{ path: "model", element: <Model /> },
 			{ path: "model2", element: <Model2 /> },
+			{ path: "model3", element: <Model3 /> },
             { path: "about", element: <About /> },
             { path: "contact", element: <Contact /> },
             // { path: "users/:userId/feedback", element: <FeedBackPage /> },

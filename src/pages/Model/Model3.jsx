@@ -1,7 +1,7 @@
 import { LoaderCircle } from "lucide-react";
 import { useState } from "react";
 
-const Model = () => {
+const Model3 = () => {
 	const [loading, setLoading] = useState(true);
    
 	const handleIframeLoad = () => {
@@ -38,4 +38,4 @@ const Model = () => {
 	);
 };
 
-export default Model;
+export default Model3;
