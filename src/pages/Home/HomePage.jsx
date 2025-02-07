@@ -10,6 +10,7 @@ import OptimalCropSeasonCardContainer from "./OptimalCropSeasonCardContainer";
 import Testimonial from "./Testimonial";
 import Features from "./Features";
 import GeospatialAnalysis from "./GeoSpatialAnalysis";
+import SideModel from "./SideModel";
 
 const HomePage = () => {
   const navigate = useNavigate();
@@ -38,10 +39,10 @@ const HomePage = () => {
           {/* Left Section - Text */}
           <div className="flex-1 space-y-4 md:space-y-6" data-aos="fade-right">
             <h1 className="mt-4 md:mt-0 text-2xl md:text-5xl lg:text-6xl font-bold text-center md:text-left">
-            Smart Farming for Better Yields
+              Smart Farming for Better Yields
             </h1>
             <p className="text-sm md:text-lg text-center md:text-left">
-            Leverage our advanced AI tools to enhance your farming practices. Our platform provides personalized pesticide recommendations, soil analysis, and market pricing predictions to help you grow healthier crops and maximize profits.
+              Leverage our advanced AI tools to enhance your farming practices. Our platform provides personalized pesticide recommendations, soil analysis, and market pricing predictions to help you grow healthier crops and maximize profits.
             </p>
             <div className="flex flex-col md:flex-row justify-center md:justify-start space-y-4 md:space-y-0 md:space-x-4">
               <button
@@ -69,11 +70,10 @@ const HomePage = () => {
         </div>
 
         <FeatureCard />
-		    <GeospatialAnalysis />
-		{/* <GeospatialAnalysis />
-		<GeospatialAnalysis /> */}
-		<div id="feature">
-         <Features />
+        <GeospatialAnalysis />
+        <div id="feature">
+          <Features />
+          {/* <SideModel /> */}
         </div>
         <FAQ />
       </div>
