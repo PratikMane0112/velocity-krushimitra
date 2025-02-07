@@ -29,7 +29,7 @@ const Model2 = () => {
 				</div>
 			)}
 			<iframe
-				src="https://rajkhanke007-fertilizer-recommendation-usage.hf.space/"
+				src=""
 				title=""
 				style={{ width: "100%", height: "100%", border: "none" }}
 				onLoad={handleIframeLoad}

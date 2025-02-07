@@ -6,11 +6,11 @@ import {
 	ListItem,
 	ListItemPrefix,
 } from "@material-tailwind/react";
-import { Sprout, TreePalm } from "lucide-react";
+import { ClipboardMinus, MapPinned } from "lucide-react";
 
 const items = [
-	{ id: "CropRecommendationOne", label: "With NPK values",icon: Sprout  },
-	{ id: "CropRecommendationTwo", label: "With Soil Parameter", icon: TreePalm  },
+	{ id: "CropRecommendationOne", label: "With Report",icon: ClipboardMinus  },
+	{ id: "CropRecommendationTwo", label: "With Location", icon: MapPinned  },
 ];
 
 export default function SideBar({
@@ -30,7 +30,7 @@ export default function SideBar({
 					variant="h5"
 					className="text-blue-gray-900 dark:text-gray-300"
 				>
-					Sidebar
+					Select Choice
 				</Typography>
 			</div>
 			<List>

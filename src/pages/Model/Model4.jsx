@@ -29,7 +29,7 @@ const Model4 = () => {
 				</div>
 			)}
 			<iframe
-				src="https://sikeaditya-krushi-mitra-v2.hf.space"
+				src="http://192.168.180.29:7860"
 				title=""
 				style={{ width: "100%", height: "100%", border: "none" }}
 				onLoad={handleIframeLoad}

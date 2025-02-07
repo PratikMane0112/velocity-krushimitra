@@ -15,13 +15,16 @@ import Model2 from "./pages/Model/Model2.jsx"
 import Model3 from "./pages/Model/Model3.jsx"
 import Model4 from "./pages/Model/Model4.jsx"
 import Model5 from "./pages/Model/Model5.jsx"
+
+import CropRecommendationPage from "./pages/CropRecommendation/CropRecommendationPage.jsx";
+
 const queryClient = new QueryClient();
 
 const SplashScreen = ({ onComplete }) => {
     useEffect(() => {
         const timer = setTimeout(() => {
             onComplete();
-        }, 3000);
+        }, 1500);
 
         return () => clearTimeout(timer);
     }, [onComplete]);
@@ -55,16 +58,16 @@ const router = createBrowserRouter([
             // { path: "pumpAndIrrigationStatus", element: <PumpAndIrrigationStatus /> },
             { path: "info", element: <Info /> },
 			{ path: "model1", element: <Model1 /> },
-			{ path: "model2", element: <Model2 /> },
+			{ path: "model2", element: <CropRecommendationPage /> },
             { path: "model3", element: <Model3 /> },
             { path: "model4", element: <Model4 /> },
-			{ path: "model5", element: <Model5 /> },
+			// { path: "model5", element: <Model5 /> },
             { path: "about", element: <About /> },
             { path: "contact", element: <Contact /> },
             // { path: "users/:userId/feedback", element: <FeedBackPage /> },
             { path: "/", element: <HomePageWithSplash />, index: true },
             // { path: "fertilizerRecommendation", element: <FertilizerRecommendation /> },
-            // { path: "cropRecommendation", element: <CropRecommendationPage /> },
+            { path: "cropRecommendation", element: <CropRecommendationPage /> },
             // { path: "optimalCropSeason", element: <OptimalCropSeason /> },
             // { path: "cropYieldPredictor", element: <CropYieldPredictor /> },
             // { path: "geoSpatialCropAnalysis", element: <GeoSpatialCropAnalysis /> },

@@ -5,7 +5,7 @@ const Loader = () => {
   const [fadeOut, setFadeOut] = useState(false);
 
   useEffect(() => {
-    setTimeout(() => setFadeOut(true), 3000); 
+    setTimeout(() => setFadeOut(true), 1500); 
   }, []);
 
   return (

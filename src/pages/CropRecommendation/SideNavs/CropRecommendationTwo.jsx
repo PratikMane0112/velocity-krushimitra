@@ -28,7 +28,7 @@ const CropRecommendationTwo = () => {
 				</div>
 			)}
 			<iframe
-				src="https://rajkhanke007-crop-recommendation-system-soil.hf.space/"
+				src="https://sikeaditya-soil-analysis.hf.space"
 				title=""
 				style={{ width: "100%", height: "100%", border: "none" }}
 				onLoad={handleIframeLoad}

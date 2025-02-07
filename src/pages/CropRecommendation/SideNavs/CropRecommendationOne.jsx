@@ -8,6 +8,8 @@ const CropRecommendationOne = () => {
 		setLoading(false);
 	};
 
+
+
 	return (
 		<div style={{ position: "relative", height: "100vh", width: "100%" }}>
 			{loading && (
@@ -29,7 +31,7 @@ const CropRecommendationOne = () => {
 				</div>
 			)}
 			<iframe
-				src="https://rajkhanke007-crop-recommendation-system-npk.hf.space/"
+				src="https://rohitashva-soil-report-analysis.hf.space"
 				title=""
 				style={{ width: "100%", height: "100%", border: "none" }}
 				onLoad={handleIframeLoad}

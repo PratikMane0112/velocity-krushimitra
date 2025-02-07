@@ -5,10 +5,10 @@ import cropMarketTrendGif from "../assets/image/crop_market_trend.gif";
 
 const CardData = [
     {
-      title: "Crop Recommendation",
-      description:"Recommends Location wise suitable crops based on soil types and region specific weather",
+      title: "Soil Analysis based on location & report",
+      description:"Genarate the soil analysis report suitable for crops based of report provided & location",
       image: cropGif,
-      path:"/model1"
+      path:"/cropRecommendation"
   
     },
     {
