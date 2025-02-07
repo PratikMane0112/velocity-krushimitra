@@ -25,9 +25,10 @@ import { ThemeContext } from "../../context/ThemeContext";
 
 const pages = [
 	{ name: "Home", path: "/home" },
-	{ name: "Model1", path: "/model" },
+	{ name: "Model1", path: "/model1" },
 	{ name: "Model2", path: "/model2" },
-	{ name: "Model3", path: "/model" },
+	{ name: "Model3", path: "/model3" },
+	{ name: "Model4", path: "/model4" },
 	{ name: "Information", path: "/info" },
 	{ name: "About", path: "/about" },
 	{ name: "Contact", path: "/contact" },

@@ -1,7 +1,7 @@
 import { LoaderCircle } from "lucide-react";
 import { useState } from "react";
 
-const Model2 = () => {
+const Model3 = () => {
 	const [loading, setLoading] = useState(true);
    
 	const handleIframeLoad = () => {
@@ -29,7 +29,7 @@ const Model2 = () => {
 				</div>
 			)}
 			<iframe
-				src="https://rajkhanke007-fertilizer-recommendation-usage.hf.space/"
+				src="https://sikeaditya-krushi-mitra-v2.hf.space"
 				title=""
 				style={{ width: "100%", height: "100%", border: "none" }}
 				onLoad={handleIframeLoad}
@@ -38,4 +38,4 @@ const Model2 = () => {
 	);
 };
 
-export default Model2;
+export default Model3;
