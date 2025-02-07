@@ -26,7 +26,7 @@ import { ThemeContext } from "../../context/ThemeContext";
 const pages = [
 	{ name: "Home", path: "/home" },
 	{ name: "Disease Detection", path: "/model1" },
-	{ name: "Soil Analysis", path: "/model2" },
+	{ name: "Soil Analysis", path: "/model2" }, 
 	{ name: "Weather Based", path: "/model3" },
 	{ name: "Market Analysis", path: "/model4" },
 	{ name: "Information", path: "/info" },

@@ -10,7 +10,7 @@ import { ClipboardMinus, MapPinned } from "lucide-react";
 
 const items = [
 	{ id: "CropRecommendationOne", label: "With Report",icon: ClipboardMinus  },
-	{ id: "CropRecommendationTwo", label: "With Location", icon: MapPinned  },
+	// { id: "CropRecommendationTwo", label: "With Location", icon: MapPinned  },
 ];
 
 export default function SideBar({
