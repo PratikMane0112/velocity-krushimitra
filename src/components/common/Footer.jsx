@@ -22,15 +22,15 @@ const Footer2 = () => {
 					<ul className="flex flex-wrap items-center mb-6 text-sm font-medium space-x-4 md:space-x-6">
 						<li>
 							<Link
-								to="/"
+								to="/model1"
 								className="hover:text-gray-300 dark:hover:text-gray-400"
 							>
-								Predict
+								Detect
 							</Link>
 						</li>
 						<li>
 							<Link
-								to="/"
+								to="/model2"
 								className="hover:text-gray-300 dark:hover:text-gray-400"
 							>
 								Analyse
@@ -38,10 +38,26 @@ const Footer2 = () => {
 						</li>
 						<li>
 							<Link
+								to="/model3"
+								className="hover:text-gray-300 dark:hover:text-gray-400"
+							>
+								Weather
+							</Link>
+						</li>
+						<li>
+							<Link
+								to="/model4"
+								className="hover:text-gray-300 dark:hover:text-gray-400"
+							>
+								Market
+							</Link>
+						</li>
+						<li>
+							<Link
 								to="/info"
 								className="hover:text-gray-300 dark:hover:text-gray-400"
 							>
-								Information
+								Info
 							</Link>
 						</li>
 						<li>

@@ -29,7 +29,7 @@ const Model4 = () => {
 				</div>
 			)}
 			<iframe
-				src="https://rajkhanke-market-price-analyzer.hf.space"
+				src="https://rajkhanke007-croppriceanalyzer.hf.space/"
 				title=""
 				style={{ width: "100%", height: "100%", border: "none" }}
 				onLoad={handleIframeLoad}

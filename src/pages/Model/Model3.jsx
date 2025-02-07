@@ -29,7 +29,7 @@ const Model3 = () => {
 				</div>
 			)}
 			<iframe
-				src="https://sikeaditya-soil-analysis.hf.space/"
+				src="https://rohitashva-weather-report.hf.space"
 				title=""
 				style={{ width: "100%", height: "100%", border: "none" }}
 				onLoad={handleIframeLoad}

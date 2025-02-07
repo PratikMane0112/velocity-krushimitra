@@ -61,7 +61,7 @@ const router = createBrowserRouter([
 			{ path: "model2", element: <CropRecommendationPage /> },
             { path: "model3", element: <Model3 /> },
             { path: "model4", element: <Model4 /> },
-			// { path: "model5", element: <Model5 /> },
+			{ path: "model5", element: <Model5 /> },
             { path: "about", element: <About /> },
             { path: "contact", element: <Contact /> },
             // { path: "users/:userId/feedback", element: <FeedBackPage /> },
