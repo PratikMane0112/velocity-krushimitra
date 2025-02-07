@@ -36,26 +36,26 @@ const GeoSpatialAnalysis = () => {
           data-aos-offset="200"
           data-aos-once="true"
         >
-          <h2 className="text-blue-900 md:text-4xl dark:text-white mb-8" data-aos="zoom-in" data-aos-delay="300">
+          <h2 className="text-blue-950 md:text-4xl dark:text-white mb-8" data-aos="zoom-in" data-aos-delay="300">
           Why do we need smart farming solutions?
           </h2>
           <ul>
             <li
-              className="my-4 mx-auto md:text-xl text-blue-800 dark:text-gray-300"
+              className="my-4 mx-auto md:text-xl text-blue-950 dark:text-gray-300"
               data-aos="fade-up"
               data-aos-delay="400"
             >
                Local farmers often lack expert advice on crop management, pesticide recommendations, and market prices, leading to suboptimal outcomes.
                </li>
             <li
-              className="my-4 mx-auto text-xl text-blue-800 dark:text-gray-300"
+              className="my-4 mx-auto text-xl text-blue-950 dark:text-gray-300"
               data-aos="fade-up"
               data-aos-delay="600"
             >
                That's why we created our all-in-one farming platform, which includes features like pesticide recommendations, soil analysis, and market price predictions.
             </li>
             <li
-              className="my-4 mx-auto text-xl text-blue-800 dark:text-gray-300"
+              className="my-4 mx-auto text-xl text-blue-950 dark:text-gray-300"
               data-aos="fade-up"
               data-aos-delay="700"
             >

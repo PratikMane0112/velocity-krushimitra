@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+/* Override chatbot messages */
+.cs-message--incoming {
+    color: whitesmoke !important; 
+}
+
+/* Override user messages */
+.cs-message--outgoing {
+    color: whitesmoke !important;
+}
+
+/* Optional: Style the chat container */
+.cs-message-list {
+    color: whitesmoke !important;
+}
