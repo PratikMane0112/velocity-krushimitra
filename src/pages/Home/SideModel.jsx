@@ -1,17 +1,22 @@
 import React from "react";
-import farmingImage from "../../assets/image/hero-img-5.jpeg"; // Update the path accordingly
+import farmingImage from "../../assets/image/weather.jpg"; 
+import { useNavigate } from "react-router-dom";
 
-const SideModel = ({ handleGetStarted, handleOnClick }) => {
+const SideModel = () => {
+    const navigate = useNavigate();
+    const handleGetStarted = () => {
+        navigate("/model5");
+      };
     return (
         <div className="max-w-7xl mx-auto flex flex-col-reverse md:flex-row items-start justify-between p-6 space-y-8 md:space-y-0 md:space-x-8 mt-8 md:mt-12">
             <div className="flex flex-col md:flex-row items-center space-y-6 md:space-y-0 md:space-x-6">
                 {/* Left Section - Text Content */}
                 <div className="flex-1 space-y-4 md:space-y-6" data-aos="fade-right">
-                    <h1 className="mt-4 md:mt-0 text-2xl md:text-5xl lg:text-6xl font-bold text-center md:text-left">
-                        Smart Farming for Better Yields
+                    <h1 className="mt-4 md:mt-0 text-2xl md:text-4xl lg:text-4xl font-bold text-center md:text-left">
+                    Weather-Driven Profitability for Farmers
                     </h1>
                     <p className="text-sm md:text-lg text-center md:text-left">
-                        Leverage our advanced AI tools to enhance your farming practices. Our platform provides personalized pesticide recommendations, soil analysis, and market pricing predictions to help you grow healthier crops and maximize profits.
+                    A tool designed to help farmers make profitable and informed decisions based on real-time weather conditions in their area.
                     </p>
                     <div className="flex flex-col md:flex-row justify-center md:justify-start space-y-4 md:space-y-0 md:space-x-4">
                         <button
@@ -20,12 +25,12 @@ const SideModel = ({ handleGetStarted, handleOnClick }) => {
                         >
                             Let's Go
                         </button>
-                        <button
+                        {/* <button
                             className="w-full md:w-auto bg-transparent border-2 border-gray-500 px-6 py-3 rounded-lg font-semibold transition duration-300 ease-in-out transform hover:scale-105 hover:border-gray-600 hover:shadow-md focus:outline-none focus:ring-2 focus:ring-gray-500"
                             onClick={handleOnClick}
                         >
                             View More
-                        </button>
+                        </button> */}
                     </div>
                 </div>
 

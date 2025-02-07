@@ -14,6 +14,7 @@ import Model1 from "./pages/Model/Model1.jsx"
 import Model2 from "./pages/Model/Model2.jsx"
 import Model3 from "./pages/Model/Model3.jsx"
 import Model4 from "./pages/Model/Model4.jsx"
+import Model5 from "./pages/Model/Model5.jsx"
 const queryClient = new QueryClient();
 
 const SplashScreen = ({ onComplete }) => {
@@ -57,7 +58,7 @@ const router = createBrowserRouter([
 			{ path: "model2", element: <Model2 /> },
             { path: "model3", element: <Model3 /> },
             { path: "model4", element: <Model4 /> },
-			{ path: "model3", element: <Model3 /> },
+			{ path: "model5", element: <Model5 /> },
             { path: "about", element: <About /> },
             { path: "contact", element: <Contact /> },
             // { path: "users/:userId/feedback", element: <FeedBackPage /> },

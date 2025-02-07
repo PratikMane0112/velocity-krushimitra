@@ -73,7 +73,7 @@ const HomePage = () => {
         <GeospatialAnalysis />
         <div id="feature">
           <Features />
-          {/* <SideModel /> */}
+          <SideModel />
         </div>
         <FAQ />
       </div>
