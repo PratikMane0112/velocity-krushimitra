@@ -53,9 +53,9 @@ const Features = () => {
                   </Typography>
                 </CardBody>
                 <CardFooter className="pt-0">
-                  <Link to={data.path}>
+                  {/* <Link to={data.path}>
                   <Button className="bg-emerald-600 hover:bg-emerald-700 dark:bg-emerald-700 dark:hover:bg-emerald-800">Click Here 🡺</Button>
-                  </Link>
+                  </Link> */}
                 </CardFooter>
               </Card>
             ))}
