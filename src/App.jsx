@@ -71,6 +71,7 @@ const router = createBrowserRouter([
 			{ path: "model2", element: <Model2 /> },
             { path: "model3", element: <Model3 /> },
             { path: "model4", element: <Model4 /> },
+			{ path: "model3", element: <Model3 /> },
             { path: "about", element: <About /> },
             { path: "contact", element: <Contact /> },
             // { path: "users/:userId/feedback", element: <FeedBackPage /> },

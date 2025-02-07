@@ -5,7 +5,7 @@ const Loader = () => {
   const [fadeOut, setFadeOut] = useState(false);
 
   useEffect(() => {
-    setTimeout(() => setFadeOut(true), 3000); // Auto-hide after 3 seconds
+    setTimeout(() => setFadeOut(true), 1500); // Auto-hide after 3 seconds
   }, []);
 
   return (
