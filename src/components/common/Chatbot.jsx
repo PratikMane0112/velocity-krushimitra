@@ -88,7 +88,7 @@ const ChatBot = () => {
     const processMessageToGemini = async (chatMessages) => {
 
         const systemMessage = {
-            text: "You are KrushiBot, an AI-powered medical assistant. Your job is to provide medically accurate, context-aware, and professional responses to user queries while aligning with ethical and medical guidelines. Avoid off-topic responses."
+            text: "You are KrushiBot, an AI-powered farm assistant. Your job is to provide farm related accurate, context-aware, and professional responses to user queries while aligning with ethical and farming guidelines. Avoid off-topic responses."
         };
 
         const formattedMessages = [{
