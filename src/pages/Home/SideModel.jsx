@@ -13,10 +13,10 @@ const SideModel = () => {
                 {/* Left Section - Text Content */}
                 <div className="flex-1 space-y-4 md:space-y-6" data-aos="fade-right">
                     <h1 className="mt-4 md:mt-0 text-2xl md:text-4xl lg:text-4xl font-bold text-center md:text-left">
-                    Weather-Driven Profitability for Farmers
+                    Crop Disease Assistant for agriculture
                     </h1>
                     <p className="text-sm md:text-lg text-center md:text-left">
-                    A tool designed to help farmers make profitable and informed decisions based on real-time weather conditions in their area.
+                    Gives the query based response which is simple, clear and formatted as bullet points, helping farmers to understood complex terms in simple words.
                     </p>
                     <div className="flex flex-col md:flex-row justify-center md:justify-start space-y-4 md:space-y-0 md:space-x-4">
                         <button

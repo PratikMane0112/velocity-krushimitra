@@ -29,7 +29,7 @@ const Model5 = () => {
 				</div>
 			)}
 			<iframe
-				src="https://rohitashva-weather-report.hf.space"
+				src="https://rohitashva-llm-crop.hf.space"
 				title=""
 				style={{ width: "100%", height: "100%", border: "none" }}
 				onLoad={handleIframeLoad}

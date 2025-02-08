@@ -15,12 +15,12 @@ const CardData = [
       title: "Fertilizer Recommendation & usage suggestion",
       description:"Advises on the ideal fertilizer for a specific soil and predict optimal fertilizer quantity in kg/Acres",
       image:fertGif,
-      path: "/model2"
+      path: "/model1"
   
     },
     {
-      title: "Crop yield predictor",
-      description:"Predict spatial-temporal Crop Yield & production based on Geolocation and real time weather updates",
+      title: "Weather Driven farm report",
+      description:"Generate a report based on current weather with live location",
       image:cropYieldGif,
       path: "/model3"
   

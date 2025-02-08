@@ -176,35 +176,35 @@ const ChatBot = () => {
             {!open && (
                 <>
                 {/* ---- with chatbot ----- */}
-                {/* <div
-                    className={`fixed bottom-[13vh] mb-3 md:mb-0 right-[1.7vw] z-30 bg-[#4CAF50] text-white text-[1.4rem] p-3 cursor-pointer rounded-[8px] shadow-md transform ${isVisible ? "scale-100 opacity-100 visible" : "scale-0 opacity-0 invisible"
-                        } transition-all duration-300 hover:bg-[#388E3C] max-lg:bottom-[11vh] max-lg:right-[2vw]`}
-                    title="Back to top"
-                    onClick={handleBackTop}
-                >
-                    <FaChevronUp />
-                </div> */}
-                {/* ---- without chatbot ----- */}
                 <div
-                    className={`fixed bottom-[13vh] mb-3 md:-mb-12 right-[1.7vw] z-30 bg-[#4CAF50] text-white text-[1.4rem] p-3 cursor-pointer rounded-[8px] shadow-md transform ${isVisible ? "scale-100 opacity-100 visible" : "scale-0 opacity-0 invisible"
+                    className={`fixed bottom-[13vh] mb-8 md:mb-2 right-[1.7vw] z-30 bg-[#4CAF50] text-white text-[1.4rem] p-3 cursor-pointer rounded-[8px] shadow-md transform ${isVisible ? "scale-100 opacity-100 visible" : "scale-0 opacity-0 invisible"
                         } transition-all duration-300 hover:bg-[#388E3C] max-lg:bottom-[11vh] max-lg:right-[2vw]`}
                     title="Back to top"
                     onClick={handleBackTop}
                 >
                     <FaChevronUp />
                 </div>
+                {/* ---- without chatbot ----- */}
+                {/* <div
+                    className={`fixed bottom-[13vh] mb-3 md:-mb-12 right-[1.7vw] z-30 bg-[#4CAF50] text-white text-[1.4rem] p-3 cursor-pointer rounded-[8px] shadow-md transform ${isVisible ? "scale-100 opacity-100 visible" : "scale-0 opacity-0 invisible"
+                        } transition-all duration-300 hover:bg-[#388E3C] max-lg:bottom-[11vh] max-lg:right-[2vw]`}
+                    title="Back to top"
+                    onClick={handleBackTop}
+                >
+                    <FaChevronUp />
+                </div> */}
                 </>
             )}
 
-            {/* <div
+            <div
                 onClick={() => setOpen(!open)}
                 className="fixed bottom-[5vh] right-[1.3vw] z-30 bg-[#4CAF50] text-white text-[2rem] p-3 cursor-pointer rounded-full shadow-lg transition-all duration-300 hover:bg-[#388E3C] hover:scale-110"
                 title="Chat with KrushiBot"
             >
                 {open ? <MdClear /> : <AiFillWechat />}
-            </div> */}
+            </div>
 
-            {/* <div
+            <div
                 ref={chatbotRef}
                 className={`fixed right-[1.5vw] bg-white z-40 border-[2px] border-[#8BC34A] rounded-[15px] pt-4 shadow-lg transition-all duration-300 ease-in-out ${open
                         ? "bottom-[13vh] w-[320px] h-[480px] opacity-100 visible"
@@ -233,7 +233,7 @@ const ChatBot = () => {
                         </ChatContainer>
                     </MainContainer>
                 </div>
-            </div> */}
+            </div>
 
         </>
     );
