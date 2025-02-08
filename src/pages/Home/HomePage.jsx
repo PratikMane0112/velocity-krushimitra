@@ -11,6 +11,7 @@ import Testimonial from "./Testimonial";
 import Features from "./Features";
 import GeospatialAnalysis from "./GeoSpatialAnalysis";
 import SideModel from "./SideModel";
+import SideModel2 from "./SideModel2";
 
 const HomePage = () => {
   const navigate = useNavigate();
@@ -74,6 +75,7 @@ const HomePage = () => {
         <div id="feature">
           <Features />
           <SideModel />
+<SideModel2 />
         </div>
         <FAQ />
       </div>

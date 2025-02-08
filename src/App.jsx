@@ -15,6 +15,7 @@ import Model2 from "./pages/Model/Model2.jsx"
 import Model3 from "./pages/Model/Model3.jsx"
 import Model4 from "./pages/Model/Model4.jsx"
 import Model5 from "./pages/Model/Model5.jsx"
+import Model6 from "./pages/Model/Model6.jsx";
 
 import CropRecommendationPage from "./pages/CropRecommendation/CropRecommendationPage.jsx";
 
@@ -62,6 +63,7 @@ const router = createBrowserRouter([
             { path: "model3", element: <Model3 /> },
             { path: "model4", element: <Model4 /> },
 			{ path: "model5", element: <Model5 /> },
+            { path: "model6", element: <Model6 /> },
             { path: "about", element: <About /> },
             { path: "contact", element: <Contact /> },
             // { path: "users/:userId/feedback", element: <FeedBackPage /> },

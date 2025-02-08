@@ -1,0 +1,49 @@
+import React from "react";
+import farmingImage from "../../assets/image/weather.jpg";
+import irrigation from "../../assets/image/irrigation.jpg" 
+import { useNavigate } from "react-router-dom";
+
+const SideModel2 = () => {
+    const navigate = useNavigate();
+    const handleGetStarted = () => {
+        navigate("/model6");
+      };
+    return (
+        <div className="max-w-7xl mx-auto flex flex-col-reverse md:flex-row items-start justify-between p-6 space-y-8 md:space-y-0 md:space-x-8 mt-8 md:mt-12">
+            <div className="flex flex-col md:flex-row items-center space-y-6 md:space-y-0 md:space-x-6">
+                
+
+                {/* Right Section - Image */}
+                <div className="w-full md:w-1/2 flex justify-center md:justify-end" data-aos="fade-left">
+                    <img src={irrigation} alt="Smart Farming" className="w-full max-w-md md:max-w-lg lg:max-w-xl rounded-lg shadow-lg" />
+                </div>
+                
+                {/* Left Section - Text Content */}
+                <div className="flex-1 space-y-4 md:space-y-6" data-aos="fade-right">
+                    <h1 className="mt-4 md:mt-0 text-2xl md:text-4xl lg:text-4xl font-bold text-center md:text-left">
+                    Smart Irrigation Water Predictor for you
+                    </h1>
+                    <p className="text-sm md:text-lg text-center md:text-left">
+                    Smart Irrigation Water Predictor which fetches real-time weather data and predicts the required irrigation water, aiding in efficient water management.
+                    </p>
+                    <div className="flex flex-col md:flex-row justify-center md:justify-start space-y-4 md:space-y-0 md:space-x-4">
+                        <button
+                            className="w-full md:w-auto px-6 py-3 bg-emerald-600 text-white rounded-lg font-semibold transition duration-300 ease-in-out transform hover:scale-105 hover:bg-emerald-700 hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+                            onClick={handleGetStarted}
+                        >
+                            Let's Go
+                        </button>
+                        {/* <button
+                            className="w-full md:w-auto bg-transparent border-2 border-gray-500 px-6 py-3 rounded-lg font-semibold transition duration-300 ease-in-out transform hover:scale-105 hover:border-gray-600 hover:shadow-md focus:outline-none focus:ring-2 focus:ring-gray-500"
+                            onClick={handleOnClick}
+                        >
+                            View More
+                        </button> */}
+                    </div>
+                </div>
+            </div>
+        </div>
+    );
+};
+
+export default SideModel2;
